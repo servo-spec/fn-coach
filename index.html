@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>FN Coach</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>🎮 FN Coach</h1>
+    <div id="user-name"></div>
+  </header>
+
+  <nav id="tabs">
+    <button class="tab active" data-tab="today">Сегодня</button>
+    <button class="tab" data-tab="week">Неделя</button>
+    <button class="tab" data-tab="mistakes">Ошибки</button>
+    <button class="tab" data-tab="ranked">Ранкед</button>
+    <button class="tab" data-tab="stats">Стата</button>
+  </nav>
+
+  <main id="content"></main>
+  <div id="loader" class="hidden">Загрузка…</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
