@@ -1,7 +1,7 @@
 // ============ НАСТРОЙКА ============
 // Впиши сюда URL своего бэкенда (Render / VPS / любой хостинг)
 // Например: "https://my-fn-coach.onrender.com"
-const API_URL = "https://ВАШ_БЭКЕНД_URL";
+const API_URL = "https://fn-coach-beckend.onrender.com/";
 
 const tg = window.Telegram.WebApp;
 tg.ready();
